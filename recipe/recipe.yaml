@@ -23,7 +23,7 @@ requirements:
     - python >=${{ python_min }}
     - jinja2 >=3.0
     - beautifulsoup4 >=4.0
-    - lxml >=4.0
+    - lxml >=4.8
     - mkdocs >=1.4
     - requests >=2.0
 
