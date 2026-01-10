@@ -1,5 +1,5 @@
 context:
-  version: "1.12.2"
+  version: "1.13.0"
 
 package:
   name: mkdocs-drawio
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/m/mkdocs-drawio/mkdocs_drawio-${{ version }}.tar.gz
-    sha256: 0d3642a98b3e0f7eb62d926855c2abd1a871038e5ec1064da7eb2d70f97ce940
+    sha256: 0fb1a438bf9b61fa60440b5b98d0b4434f58688e3e5a64c27adcaf3612956848
 
 build:
   number: 0
