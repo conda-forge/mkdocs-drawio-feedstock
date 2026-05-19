@@ -21,11 +21,12 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
+    - requests >=2.0
     - jinja2 >=3.0
+    - pypng >=0.20220715.0
     - beautifulsoup4 >=4.0
     - lxml >=4.8
     - mkdocs >=1.4
-    - requests >=2.0
 
 tests:
   - python:
