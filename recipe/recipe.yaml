@@ -1,5 +1,5 @@
 context:
-  version: "1.15.0"
+  version: "1.16.1"
 
 package:
   name: mkdocs-drawio
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/m/mkdocs-drawio/mkdocs_drawio-${{ version }}.tar.gz
-    sha256: bb87709896087303a673527ec8f32f1b869823fbf499a0a4fb82e862790fe4a4
+    sha256: 55a3fdd2313b05b78d5d6098f6bee122ad8eb8e0b8cbf0a1e2ea649a188208a6
 
 build:
   number: 0
@@ -21,11 +21,12 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
+    - requests >=2.0
     - jinja2 >=3.0
+    - pypng >=0.20220715.0
     - beautifulsoup4 >=4.0
     - lxml >=4.8
     - mkdocs >=1.4
-    - requests >=2.0
 
 tests:
   - python:
